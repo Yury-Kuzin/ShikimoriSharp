@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32714.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShikimoriSharp", "ShikimoriSharp\ShikimoriSharp.csproj", "{867E415D-5611-43B1-B7C4-0C2F3F924637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shik", "Shik\Shik.csproj", "{2364F9E3-0E81-49C5-B173-8337498145F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{867E415D-5611-43B1-B7C4-0C2F3F924637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867E415D-5611-43B1-B7C4-0C2F3F924637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867E415D-5611-43B1-B7C4-0C2F3F924637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867E415D-5611-43B1-B7C4-0C2F3F924637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2364F9E3-0E81-49C5-B173-8337498145F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2364F9E3-0E81-49C5-B173-8337498145F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2364F9E3-0E81-49C5-B173-8337498145F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2364F9E3-0E81-49C5-B173-8337498145F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {411ADEE6-929E-4522-9BC9-8974516353FF}
+	EndGlobalSection
+EndGlobal
