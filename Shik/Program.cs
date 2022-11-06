@@ -48,13 +48,15 @@ namespace Shik
             Client = new ShikimoriClient(logger, new ClientSettings(name, clientId, clientSecret));
             try
             {
-                Task<Anime[]> animes = Client.Animes.GetAnime();
+                Task<Anime[]> animes = Client.Animes.GetAnime(null, Token);
                 Anime[] aaa = animes.Result;
+                Console.WriteLine();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
+            Console.WriteLine();
         }
     }
 }
